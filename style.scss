@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #F587DD;
+}
+
+p {
+    color: #000000;
+}
+
+img{
+    width: 237px;
+    height: 229px;
+    display: block;
+    margin: 50px; 
+    border-radius: 150px;
+    opacity: 1; 
+}
+
+.filmes-favoritos {
+    width: 100%; 
+    max-width: 1440px; 
+    height: 167px;
+    margin: 20px 0;
+    background-color: #BAF3F6; 
+    opacity: 0.9;
+    padding: 20px;
+    border-radius: 50px;
+
+    h2 {
+        margin-top: 50px;
+    }
+
+    ol {
+        padding-left: 20px;
+    }
+
+    li {
+        margin-bottom: 10px;
+    }
+}
+
+.musicas-favoritas {
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.caixa-cinza {
+    background-color: #d3d3d3;
+    padding: 20px;
+    border-radius: 50px;
+    text-align: center;
+    width: 100%; 
+    max-width: 600px; 
+    margin: 20px auto; 
+}
+
+.caixa-cinza p {
+    margin: 0;
+    color: #333;
+    font-size: 18px;
+}
